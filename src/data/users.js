@@ -26,7 +26,7 @@ export const users = [
         city: "İstanbul",
         age: 21,
         creditCardNumber: "654321",
-        type: "customer"
+        type: "customr"
     },
     {
         id: 3,
@@ -44,7 +44,7 @@ export const users = [
         city: "Bolu",
         age: 23,
         salary:17000,
-        type: "employee"
+        type: "employe"
     },
     {
         id: 5,
