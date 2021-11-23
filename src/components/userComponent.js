@@ -38,4 +38,3 @@ console.log(userService.customers)
 console.log(userService.employees)
 console.log(userService.errors)
 console.log(userService.getCustomersSorted())
-//22.00 Dersteyiz
