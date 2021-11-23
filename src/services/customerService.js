@@ -1,3 +1,4 @@
+import { CUSTOMER } from "../data/types.js";
 import { users } from "../data/users.js";
 import DataError from "../models/dataError.js";
 
@@ -50,7 +51,7 @@ export default class CustomerService {
   }
 
   checkUserTypeForCustomer(user) {
-    if (user.type === "customer") {
+    if (user.type === CUSTOMER) {
       return true;
     }
     return false;

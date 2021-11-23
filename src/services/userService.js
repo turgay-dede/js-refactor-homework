@@ -1,9 +1,10 @@
+import { CUSTOMER, EMPLOYEE } from "../data/types.js";
 import { users } from "../data/users.js";
 import DataError from "../models/dataError.js";
 
 export default class UserService {
   constructor(loggerService) {
-    this.types = ["customer", "employee"];
+    this.types = [CUSTOMER,EMPLOYEE];
     this.errors = [];
   }
 
